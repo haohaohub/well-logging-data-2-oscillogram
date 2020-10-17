@@ -5,7 +5,7 @@ import numpy as np
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
-data = xlrd.open_workbook('红砂岩数据处理-王浩.xlsx')
+data = xlrd.open_workbook('name.xlsx')
 table = data.sheets()[0]
 
 def plus4(ylist):
